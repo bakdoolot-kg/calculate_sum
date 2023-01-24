@@ -34,9 +34,9 @@
 
 ## Отправить изменения
 
+ > #### Учимся писать информативные комментарии к GIT-коммитам используя общепринятую семантику. [Habr](https://habr.com/ru/company/otus/blog/537196/)
  1. `git add <changes>` вместо changes ваши изменения, к примеру: `git add redux/store.js` или просто `git add .`
  2. `git commit -m "commit text"` обязательно напишите что вы изменили внутри кавычек, коротко и ясно, к примеру: `git commit -m "add redux store, edit app.js, edit style.css"`
  3. `git push origin <ваша ветка>`
  4. Переходим ваш форкнутый репозиторий. Там должно появится зеленая кнопка "**Compare & pull request**" ![pull](https://www.testingdocs.com/wp-content/uploads/Compare-pull-request.png)
 5. Переходите в такую страницу и нажимаете кнопку "**Create pull request**" и все![compare](https://www.earthdatascience.org/images/earth-analytics/git-version-control/github-create-pull-request.png)
-> #### Учимся писать информативные комментарии к GIT-коммитам используя общепринятую семантику. [Habr](https://habr.com/ru/company/otus/blog/537196/)
